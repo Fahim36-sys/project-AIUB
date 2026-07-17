@@ -1,5 +1,5 @@
 function add(a, b)
     return a + b
 end
-
-print("Sum: " .. add(5, 3))
+local result = add(5, 3)
+print("Sum: " .. result)
